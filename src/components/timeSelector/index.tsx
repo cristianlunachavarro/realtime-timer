@@ -1,8 +1,10 @@
 import { ChangeEvent, FC, useCallback, useEffect, useMemo } from "react";
-import "./style.css";
+
 import { ArrowForward } from "@mui/icons-material";
 import { dateToString, stringToDate } from "../../helpers/timer";
+
 import clsx from "clsx";
+import "./style.css";
 
 export type Props = {
   startTime?: Date;

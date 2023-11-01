@@ -1,8 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/react";
+
 import TimeSelector, { Props } from "./index";
+
 import "./style.css";
 
 const fn = () => {};
+
 const meta: Meta<typeof TimeSelector> = {
   title: "Time Selector",
   component: TimeSelector,

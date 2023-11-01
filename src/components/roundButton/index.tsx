@@ -1,12 +1,13 @@
-import { FC, MouseEventHandler } from "react";
-import StopOutlinedIcon from "@mui/icons-material/StopOutlined";
-import "./style.css";
+import { FC } from "react";
 import { OverridableComponent } from "@mui/material/OverridableComponent";
 import { SvgIconTypeMap } from "@mui/material";
+
 import clsx from "clsx";
 
+import "./style.css";
+
 type TIcon = OverridableComponent<SvgIconTypeMap<{}, "svg">> & {
-  muiName: string;
+muiName: string;
 };
 
 type Props = {

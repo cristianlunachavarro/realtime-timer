@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import "./style.css";
 
 import {
   AddOutlined,
@@ -8,6 +7,8 @@ import {
 } from "@mui/icons-material";
 
 import RoundButton from "./index";
+
+import "./style.css";
 
 const meta: Meta<typeof RoundButton> = {
   title: "Round Button",
