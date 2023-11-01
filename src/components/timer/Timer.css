@@ -1,0 +1,26 @@
+.timerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 5px 5px;
+  float: inline-end;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.liner {
+  border-bottom: 1px solid var(--gray);
+}
+
+.display_Container {
+ display: flex;
+ height: 100%;
+ justify-content: center;
+ align-items: center;  
+ font-weight: 700; 
+}
